@@ -1,0 +1,334 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Montserrat, serif;
+  color: #fefefe;
+}
+
+body {
+  min-width: 1150px;
+  margin: auto;
+  background: linear-gradient(
+    175deg,
+    #000000 0%,
+    #002a34 25%,
+    #e1b485 50%,
+    #b2917f 75%,
+    #002a34 100%
+  );
+}
+
+header {
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #002a34;
+}
+
+.logo .first {
+  font-family: "Luckiest Guy", serif;
+  font-size: calc(40px * 2);
+  line-height: 40px;
+  color: #e1b485;
+}
+
+.logo .second {
+  font-family: Lora, serif;
+  font-size: calc(20px * 2);
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #b2917f;
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_items {
+  text-decoration: none;
+  color: #e1b485;
+  text-transform: capitalize;
+  font-size: calc(20px * 1.5);
+}
+
+main {
+  height: 100vh;
+  background-image: url("../images/MainBackground.png");
+  background-size: cover; /* Stretch the background image to cover the container */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #002a34;
+}
+
+main .top {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .top h1 {
+  padding-top: 15%;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Ruslan Display", serif;
+  font-size: 64px;
+}
+
+main .top p {
+  font-size: 25px;
+}
+
+main .top button {
+  margin-top: auto;
+  margin-bottom: 2rem;
+  padding: 1rem 2.5rem;
+  border: 2px solid #ffffff;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: transparent;
+  font-size: 20px;
+  font-family: Lora, serif;
+}
+
+main .bottom {
+  width: 95%;
+  padding: 1.5rem 1rem 1.5rem 3.5rem;
+  border: 2px solid #e1b485;
+  display: flex;
+  justify-content: space-between;
+}
+
+main .bottom ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .bottom ul li {
+  list-style-position: outside;
+  list-style-image: url("../images/LeftArrowList.png");
+  font-size: 20px;
+  color: #e1b485;
+}
+
+.photo_classes {
+  margin: 2rem 0;
+}
+
+.photo_classes .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+
+.photo_classes .top .left {
+  font-size: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+  flex-grow: 1;
+}
+
+.photo_classes .top .left h2 {
+  margin: 1rem 0;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.photo_classes .top .right img {
+  width: 2.125rem;
+}
+
+.photo_classes .photo_container {
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photo_container .photo {
+  width: 24%;
+  height: 100%;
+  position: relative;
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+
+.photo p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #e1b485;
+  font-family: "Luckiest Guy", serif;
+  position: absolute;
+  bottom: 5px;
+  left: 12px;
+}
+
+.horizontal_line {
+  margin: 2rem auto;
+  width: 85%;
+  height: 3px;
+  background-color: #e1b485;
+}
+
+.top_experiences .top h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 3.25rem;
+}
+
+h2 span {
+  color: #002a34;
+}
+
+.top_experiences .top p {
+  text-align: center;
+  white-space: pre-wrap;
+  font-size: 1.75rem;
+}
+
+.top_experiences .photo_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photo_container .photo {
+  width: 32%;
+}
+
+.photo div {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.photo div h3 {
+  font-size: 2rem;
+  font-family: "Ruslan Display", serif;
+  text-transform: uppercase;
+}
+
+.photo div h4 {
+  text-transform: capitalize;
+  font-size: 1.75rem;
+}
+
+.top_experiences button {
+  margin: 1rem 2rem 2rem auto;
+  padding: 1rem 3rem;
+  display: block;
+  color: #002a34;
+  border: 2px solid #000000;
+  border-radius: 7px;
+  text-transform: uppercase;
+  background-color: transparent;
+  font-family: serif;
+}
+
+.top_pick {
+  height: 600px;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.top_pick img {
+  height: 500px;
+  margin-right: 1rem;
+}
+
+.top_pick .left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.top_pick .left h2 {
+  width: 45%;
+  text-transform: uppercase;
+  margin-top: 1.25rem;
+  white-space: nowrap;
+}
+
+.top_pick .left p {
+  font-size: 1rem;
+  line-height: 28px;
+}
+
+.top_pick .left a {
+  text-transform: capitalize;
+  font-size: 2rem;
+  color: #002a34;
+}
+
+footer {
+  padding: 2rem;
+}
+
+footer nav {
+  margin: auto;
+  width: 90%;
+  padding: 1.75rem 3rem;
+  border-top: 2px solid #002a34;
+  border-bottom: 2px solid #002a34;
+}
+
+footer .logo {
+  margin-left: 1rem;
+}
+
+.logo .first {
+  font-size: 40px;
+}
+
+.logo .second {
+  font-size: 20px;
+}
+
+footer .bottom {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom .correction {
+  width: 10%;
+}
+
+.social_icons {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.social_icons p {
+  margin-top: 0.75rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.social_icons i {
+  font-size: 2rem;
+}
