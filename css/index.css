@@ -10,13 +10,12 @@
 body {
   min-width: 1150px;
   margin: auto;
-  padding: 0 3px;
   background: linear-gradient(
-    175deg,
+    180deg,
     #000000 0%,
-    #002a34 25%,
-    #e1b485 50%,
-    #b2917f 75%,
+    #002a34 20%,
+    #e1b485 45%,
+    #b2917f 70%,
     #002a34 100%
   );
   background-size: cover;
