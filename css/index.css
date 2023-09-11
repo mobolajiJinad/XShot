@@ -10,6 +10,7 @@
 body {
   min-width: 1150px;
   margin: auto;
+  padding: 0 3px;
   background: linear-gradient(
     175deg,
     #000000 0%,
@@ -18,6 +19,8 @@ body {
     #b2917f 75%,
     #002a34 100%
   );
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 header {
@@ -59,7 +62,7 @@ nav {
 main {
   height: 100vh;
   background-image: url("../images/MainBackground.png");
-  background-size: cover; /* Stretch the background image to cover the container */
+  background-size: cover;
   background-position: center;
   display: flex;
   flex-direction: column;
@@ -199,7 +202,7 @@ h2 span {
 .top_experiences .top p {
   text-align: center;
   white-space: pre-wrap;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .top_experiences .photo_container {
@@ -209,7 +212,7 @@ h2 span {
   justify-content: space-around;
 }
 
-.photo_container .photo {
+.top_experiences .photo_container .photo {
   width: 32%;
 }
 
@@ -279,6 +282,64 @@ h2 span {
   text-transform: capitalize;
   font-size: 2rem;
   color: #002a34;
+}
+
+.top_creatives .top {
+  margin: 1rem;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.top_creatives .top h2 {
+  margin-bottom: 0.75rem;
+  font-size: 2.25rem;
+  text-transform: capitalize;
+}
+
+.photo_creatives_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.photo_creatives {
+  width: 47%;
+  position: relative;
+}
+
+.photo_creatives img {
+  width: 100%;
+}
+
+.photo_creatives_info {
+  width: 70%;
+  position: absolute;
+  bottom: 1.25rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.photo_creatives_info h2 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  font-family: "Ruslan Display", serif;
+}
+
+.photo_creatives_info div {
+  margin: 2rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.photo_creatives_info div span {
+  font-size: 1.5rem;
+  color: #002a34;
+}
+
+.photo_creatives_info p {
+  color: #002a34;
+  font-size: 1rem;
 }
 
 footer {
