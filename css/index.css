@@ -331,13 +331,24 @@ h2 span {
   justify-content: space-between;
 }
 
+.photo_creatives_info a button {
+  background-color: transparent;
+  margin-top: 1rem;
+  padding: 0.5rem 1.75rem;
+  color: #fefefe;
+  border: 1px solid #002a34;
+  border-radius: 7px;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
 .photo_creatives_info div span {
   font-size: 1.5rem;
-  color: #002a34;
+  color: #fefefe;
 }
 
 .photo_creatives_info p {
-  color: #002a34;
+  color: #fefefe;
   font-size: 1rem;
 }
 

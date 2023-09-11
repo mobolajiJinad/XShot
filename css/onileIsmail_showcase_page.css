@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: Montserrat, serif;
+  color: #fefefe;
+}
+
+body {
+  min-width: 1150px;
+  margin: auto;
+  background: linear-gradient(
+    180deg,
+    #000000 0%,
+    #002a34 20%,
+    #e1b485 45%,
+    #b2917f 70%,
+    #002a34 100%
+  );
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header {
+  padding: 2rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #906f4d;
+}
+
+.logo .first {
+  font-family: "Luckiest Guy", serif;
+  font-size: calc(40px * 2);
+  line-height: 40px;
+  color: #002a34;
+}
+
+.logo .second {
+  font-family: Lora, serif;
+  font-size: calc(20px * 2);
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #002a34;
+}
+
+nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav_items {
+  text-decoration: none;
+  color: #002a34;
+  text-transform: capitalize;
+  font-size: calc(20px * 1.5);
+}
+
+main {
+  margin: 1rem 0;
+  padding: 0 1.5rem;
+}
+
+main .top,
+main .bottom {
+  margin-bottom: 2.5rem;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .top img {
+  width: 50%;
+}
+
+.top_left {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top_left_left {
+  margin-left: 2rem;
+  text-align: center;
+}
+
+.top_left_left span {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.top_left_left h3 {
+  text-transform: capitalize;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.profile {
+  width: 10rem !important;
+  height: auto;
+}
+
+.summary {
+  font-size: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.bottom .left,
+.bottom .right {
+  width: 46%;
+}
+
+.bottom .left p {
+  text-align: center;
+}
+
+.bottom .left h3 {
+  margin-top: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: Lora, serif;
+  color: #b2917f;
+}
+
+.bottom .right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottom .right a {
+  width: 60%;
+}
+
+.bottom .right button {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.75rem 0;
+  border: 2px solid #906f4d;
+  font-size: 1rem;
+  border-radius: 21px;
+}
+
+.bottom .right a .first {
+  color: #e1b485;
+  background-color: #002a34cc;
+}
+
+.bottom .right a .second {
+  background-color: #906f4d;
+  color: #002a34;
+}
