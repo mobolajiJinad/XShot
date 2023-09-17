@@ -52,13 +52,20 @@ nav {
   font-size: calc(20px * 1.5);
 }
 
+main{
+   background: linear-gradient(
+    275.14deg,
+    rgba(217, 217, 217, 0) 16.9%,
+    rgba(0, 0, 0, 0.72) 69.13%
+  );
+}
+
 main h1 {
   text-align: center;
   padding: 2rem;
   color: #e1b48563;
   font-size: 3rem;
   text-transform: capitalize;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, #002a34 67.71%);
 }
 
 .all_photo_category_container {
@@ -77,11 +84,6 @@ main h1 {
 .all_photo_category_container .left {
   width: 50%;
   height: 100%;
-  background: linear-gradient(
-    275.14deg,
-    rgba(217, 217, 217, 0) 16.9%,
-    rgba(0, 0, 0, 0.72) 69.13%
-  );
 }
 
 .all_photo_category_container .left div {

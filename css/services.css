@@ -126,6 +126,7 @@ select {
   border: 1px solid #e1b485;
   border-radius: 7px;
   background-color: #002a34;
+  cursor: pointer;
 }
 
 .custom-file-upload {
