@@ -1,0 +1,15 @@
+/* Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Luckiest+Guy&family=Montserrat&family=Ruslan+Display&display=swap");
+
+/* Font Awesome */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+
+/* Your Tailwind CSS directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Montserrat, serif;
+  color: #fefefe;
+}
