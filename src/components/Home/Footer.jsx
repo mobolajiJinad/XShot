@@ -1,28 +1,33 @@
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer className="mt-4 px-1 md:px-3">
       <nav className="mx-2 flex flex-row items-center justify-between border-y-2 border-solid border-y-[#002a34] px-1 py-5 text-lg capitalize sm:mx-auto sm:px-[10%] md:w-[85%] md:text-xl lg:w-[75%] lg:text-2xl">
-        <a href="#" className="px-1 text-[#e1b485] no-underline">
+        <a
+          href="#"
+          className="px-1 text-[#e1b485] no-underline hover:text-white"
+        >
           about
         </a>
-        <a
-          href="./html/services.html"
-          className="px-1 text-[#e1b485] no-underline"
+        <Link
+          to="/services"
+          className="px-1 text-[#e1b485] no-underline hover:text-white"
         >
           services
-        </a>
+        </Link>
         <a
           href="./html/pricing.html"
-          className="px-1 text-[#e1b485] no-underline"
+          className="px-1 text-[#e1b485] no-underline hover:text-white"
         >
           pricing
         </a>
-        <a
-          href="./html/contact.html"
-          className="px-1 text-[#e1b485] no-underline"
+        <Link
+          to="/contact"
+          className="px-1 text-[#e1b485] no-underline hover:text-white"
         >
           contact
-        </a>
+        </Link>
       </nav>
 
       <div className="mx-auto my-4 mb-0 flex flex-col items-center justify-between md:w-[85%] md:flex-row lg:w-[75%]">

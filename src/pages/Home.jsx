@@ -1,12 +1,12 @@
 import { Helmet } from "react-helmet";
 
-import Header from "../../components/Header";
-import Main from "../../components/Home/Main";
-import PhotoContainer from "../../components/Home/PhotoContainer";
-import TopPick from "../../components/Home/TopPick";
-import TopExperiences from "../../components/Home/TopExperiences";
-import TopCreatives from "../../components/Home/TopCreatives";
-import Footer from "../../components/Home/Footer";
+import Header from "../components/Header";
+import Main from "../components/Home/Main";
+import PhotoContainer from "../components/Home/PhotoContainer";
+import TopPick from "../components/Home/TopPick";
+import TopExperiences from "../components/Home/TopExperiences";
+import TopCreatives from "../components/Home/TopCreatives";
+import Footer from "../components/Home/Footer";
 
 const Home = () => {
   return (
@@ -32,7 +32,7 @@ const Home = () => {
         </style>
       </Helmet>
 
-      <Header />
+      <Header bgColor={"#002a34"} xColor={"#e1b485"} shotColor={"#e1b485"} />
       <Main />
       <PhotoContainer />
       <TopExperiences />
