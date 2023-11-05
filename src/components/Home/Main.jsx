@@ -1,6 +1,6 @@
 const Main = () => {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-around bg-[#002a34] bg-mainBackground bg-cover bg-center">
+    <main className="flex min-h-screen flex-col items-center justify-around bg-[#002a34] bg-mainBackground bg-cover bg-center px-1">
       <div className="flex h-1/2 flex-col items-center md:h-3/4">
         <h1 className="mb-2 pt-8 text-center font-RuslanDisplay text-4xl uppercase md:text-6xl">
           we live photography

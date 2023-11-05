@@ -2,12 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
-import Home from "./pages/Home";
 import "./index.css";
+
+import Home from "./pages/Home";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
 import PhotoCategories from "./pages/PhotoCategories";
+import OnileIsmail from "./pages/OnileIsmail";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/categories",
     element: <PhotoCategories />,
+  },
+  {
+    path: "/showcase/onileIsmail",
+    element: <OnileIsmail />,
   },
 ]);
 

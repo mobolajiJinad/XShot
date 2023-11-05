@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import Photo8 from "../../assets/Photo8.png";
 import Photo9 from "../../assets/Photo9.png";
 
@@ -20,6 +22,7 @@ const TopCreatives = () => {
           paragraphText={
             "Good client interaction can absolutely speak every language and also do and undo"
           }
+          href={"/showcase/onileIsmail"}
         />
 
         <PhotoCreatives
@@ -30,13 +33,21 @@ const TopCreatives = () => {
           paragraphText={
             "Good client interaction can absolutely speak every language and also do and undo"
           }
+          href={"/showcase/onileIsmail"}
         />
       </div>
     </section>
   );
 };
 
-const PhotoCreatives = ({ imgSrc, name, clientNum, rating, paragraphText }) => {
+const PhotoCreatives = ({
+  imgSrc,
+  name,
+  clientNum,
+  rating,
+  paragraphText,
+  href,
+}) => {
   return (
     <div className="relative mx-auto mb-2 min-h-[250px] w-[95%] rounded-xl md:w-[48%] lg:w-[45%]">
       <img className="h-full w-full" src={imgSrc} alt="An image" />
@@ -57,12 +68,13 @@ const PhotoCreatives = ({ imgSrc, name, clientNum, rating, paragraphText }) => {
           {paragraphText}
         </p>
 
-        <a
+        <Link
+          to={href}
           className="mx-auto mt-4 cursor-pointer rounded-lg border border-solid border-[#002a34] bg-transparent px-5 py-2 text-lg text-[#fefefe] lg:px-7"
           href="./html/onileIsmail_showcase_page.html"
         >
           Check out his works &rarr;
-        </a>
+        </Link>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ const Main = () => {
     <main
       style={{
         background:
-          "linear-gradient(275.14deg, rgba(217, 217, 217, 0) 16.9%, rgba(0, 0, 0, 0.72) 69.13%);",
+          "linear-gradient(275.14deg, rgba(217, 217, 217, 0) 16.9%, rgba(0, 0, 0, 0.72) 69.13%)",
       }}
     >
       <h1 className="p-8 text-center text-2xl font-bold capitalize text-[#52300963] sm:text-5xl">

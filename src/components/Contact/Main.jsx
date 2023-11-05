@@ -8,7 +8,7 @@ const Main = () => {
       </Helmet>
 
       <main>
-        <div className="h-[65vh] w-full bg-ContactMainTop bg-cover bg-no-repeat p-12 text-center md:h-[70vh]">
+        <div className="h-[75vh] w-full bg-ContactMainTop bg-cover bg-no-repeat p-12 text-center md:h-[70vh]">
           <span className="mx-auto my-11 block font-LuxuriousScript text-4xl">
             glitz and glamour at its peak
           </span>
