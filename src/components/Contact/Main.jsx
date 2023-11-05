@@ -54,7 +54,7 @@ const Main = () => {
 const Child = ({ title, text, marker }) => {
   return (
     <div className="my-4 flex flex-col items-center text-[#002a34]">
-      <div class={`fas ${marker} text-2xl text-[#002a34]`}></div>
+      <div className={`fas ${marker} text-2xl text-[#002a34]`}></div>
       <h4 className="mx-0 my-4 text-center text-2xl capitalize text-[#002a34]">
         {title}
       </h4>

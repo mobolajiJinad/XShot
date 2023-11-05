@@ -54,7 +54,7 @@ const Main = () => {
           </h3>
         </div>
 
-        <div class="flex w-[46%] flex-col items-center">
+        <div className="flex w-[46%] flex-col items-center">
           <a href="#" className="w-[60%]">
             <button className="mx-auto my-4 w-full rounded-3xl border-2 border-solid border-[#906f4d] bg-[#002a34cc] px-0 py-3 text-base text-[#e1b485]">
               Book this creative
