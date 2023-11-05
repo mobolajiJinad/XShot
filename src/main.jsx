@@ -7,6 +7,7 @@ import "./index.css";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import Pricing from "./pages/Pricing";
+import PhotoCategories from "./pages/PhotoCategories";
 
 const router = createBrowserRouter([
   {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
   {
     path: "/pricing",
     element: <Pricing />,
+  },
+  {
+    path: "/categories",
+    element: <PhotoCategories />,
   },
 ]);
 

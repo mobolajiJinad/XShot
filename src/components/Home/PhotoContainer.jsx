@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import LeftArrowList from "../../assets/LeftArrowList.png";
 import Photo1 from "../../assets/Photo1.jpg";
 import Photo2 from "../../assets/Photo2.jpg";
@@ -23,9 +24,9 @@ const PhotoContainer = () => {
           </h2>
         </div>
 
-        <a href="./html/allPhotoCategory.html">
+        <Link to="/categories">
           <img src={LeftArrowList} className="w-7 md:w-9" />
-        </a>
+        </Link>
       </div>
 
       <div className="md:min-h-96 flex h-auto w-full flex-wrap items-center justify-around ">
@@ -41,7 +42,7 @@ const PhotoContainer = () => {
 
 const Photo = ({ photoImg, photoText }) => {
   return (
-    <div className="relative my-1 h-96 w-full px-1 sm:w-1/2 lg:w-1/4">
+    <div className="relative my-1 h-96 w-full px-1 hover:scale-105 sm:w-1/2 lg:w-1/4">
       <img
         src={photoImg}
         alt="Image showcase"

@@ -41,7 +41,7 @@ const TopExperiences = () => {
 
 const Photo = ({ imgSrc, textH3, textH4 }) => {
   return (
-    <div className="relative mb-2 w-full px-2 sm:w-[32%] md:mb-0 md:px-0">
+    <div className="relative mb-2 w-full px-2 hover:scale-105 sm:w-[32%] md:mb-0 md:px-0">
       <img className="w-full" src={imgSrc} alt="Image" />
 
       <div className="absolute inset-x-0 bottom-3 whitespace-nowrap text-center">
