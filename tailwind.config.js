@@ -11,10 +11,10 @@ export default {
         LuxuriousScript: ["Luxurious Script", "serif"],
       },
       backgroundImage: {
-        mainBackground: "url(src/assets/MainBackground.png)",
-        ContactMainTop: "url(src/assets/ContactMainTop.png)",
+        mainBackground: "url(/src/assets/MainBackground.png)",
+        ContactMainTop: "url(/src/assets/ContactMainTop.png)",
       },
-      listStyleImage: { LeftArrowList: "url(src/assets/LeftArrowList.png)" },
+      listStyleImage: { LeftArrowList: "url(/src/assets/LeftArrowList.png)" },
     },
   },
   plugins: [],

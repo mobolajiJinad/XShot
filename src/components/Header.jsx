@@ -55,7 +55,7 @@ const NavItems = ({ isOpen, bgColor }) => {
         <NavItem href="/" text="Home" />
         <NavItem href="#" text="About" />
         <NavItem href="/services" text="Services" />
-        <NavItem href="#" text="Pricing" />
+        <NavItem href="/pricing" text="Pricing" />
         <NavItem href="/contact" text="Contact" />
       </ul>
     </nav>

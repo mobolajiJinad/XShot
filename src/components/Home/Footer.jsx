@@ -16,12 +16,12 @@ const Footer = () => {
         >
           services
         </Link>
-        <a
-          href="./html/pricing.html"
+        <Link
+          to="/pricing"
           className="px-1 text-[#e1b485] no-underline hover:text-white"
         >
           pricing
-        </a>
+        </Link>
         <Link
           to="/contact"
           className="px-1 text-[#e1b485] no-underline hover:text-white"

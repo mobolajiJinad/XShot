@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import "./index.css";
 import Services from "./pages/Services";
 import Contact from "./pages/Contact";
+import Pricing from "./pages/Pricing";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
   {
     path: "/contact",
     element: <Contact />,
+  },
+  {
+    path: "/pricing",
+    element: <Pricing />,
   },
 ]);
 
