@@ -10,7 +10,7 @@ const Header = ({ bgColor, xColor, shotColor }) => {
   return (
     <header
       style={{ backgroundColor: `${bgColor}` }}
-      className={`relative w-full px-6 py-4 md:py-1`}
+      className={"relative z-50 w-full px-6 py-4 md:py-1"}
     >
       <div className="flex items-center justify-between xl:justify-between">
         <div className="flex items-center">
