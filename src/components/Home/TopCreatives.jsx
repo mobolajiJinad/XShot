@@ -71,7 +71,6 @@ const PhotoCreatives = ({
         <Link
           to={href}
           className="mx-auto mt-4 cursor-pointer rounded-lg border border-solid border-[#002a34] bg-transparent px-5 py-2 text-lg text-[#fefefe] lg:px-7"
-          href="./html/onileIsmail_showcase_page.html"
         >
           Check out his works &rarr;
         </Link>
