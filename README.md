@@ -1,6 +1,6 @@
 # Static Desktop Website - XShot
 
-Welcome to our static desktop website project! This README.md file will provide you with an overview of our project, its purpose, and the key contributors - the product designer and the frontend engineer.
+Welcome to our website project! This README.md file will provide you with an overview of our project, its purpose, and the key contributors - the product designer and the frontend engineer.
 
 ## Key Contributors
 
@@ -22,8 +22,8 @@ Welcome to our static desktop website project! This README.md file will provide 
 
 ## Technologies Used
 
-- **HTML**: Used for structuring the website's content.
-- **CSS**: Utilized to style and format the website's elements.
+- **REACT**
+- **TailwindCSS**
 
 ## How to Run the Website Locally
 
@@ -31,7 +31,7 @@ To run the website on your local machine, follow these steps:
 
 1. Clone the repository: `git clone [repository URL]`
 2. Navigate to the project directory: `cd [project directory]`
-3. Open the `index.html` file in your web browser.
+3. Open your terminal and write `npm run dev`. NOTE: You need to have nodeJS and npm installed.
 
 ## Deployment
 
