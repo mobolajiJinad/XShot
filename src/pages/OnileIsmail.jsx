@@ -12,7 +12,6 @@ const OnileIsmail = () => {
         <style>
           {` 
             body {
-              min-width: 1150px;
               margin: auto;
               background: linear-gradient(180deg, #e1b485 0%, #002a34 50.52%);
               background-size: cover;
